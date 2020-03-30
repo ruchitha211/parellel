@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/jquery/dist/jquery.min.js",
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/bootstrap/dist/js/bootstrap.js.map"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,9 +95,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/jquery/dist/jquery.min.js",
+              "C:/Users/Lenovo/Desktop/parellel/parellell/node_modules/bootstrap/dist/js/bootstrap.js.map"
+            ]
           }
         },
         "lint": {

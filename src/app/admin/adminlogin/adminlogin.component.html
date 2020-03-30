@@ -1,0 +1,49 @@
+<section>
+<div style="background-color:rgba(215, 215,215,0.3);" class="card col-lg-4 offset-lg-4 mt-5">
+  <div class="card-body m-3">
+<form [formGroup]="loginGroup">
+<h3 style="text-align: center;">Login </h3>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" name="email" placeholder="Enter your email" ngModel formControlName="email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" name="password" placeholder="Enter your Password" ngModel formControlName="password">
+  </div>
+  <span *ngIf="error" style="color:red;">Email and password is incorrect</span><br>
+  <a href=""><u>Forgot password</u></a>
+
+      
+  <div style="margin-top: 30px;">
+  <button type="submit" class="btn btn-outline-success btn-lg" (click)="sub()"  style="margin-right: 100px;">Login</button>
+  
+  
+  </div>
+</form>
+</div>
+</div>
+</section>
+<!-- <div class="row">
+
+  <div class="col-md-6 login-container">
+    <h2 style="margin: auto">Login </h2>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username">UserName:</label>
+        <input type="text" class="form-control" formControlName="username" id="username" autocomplete="off">
+        <div class="error" *ngIf="loginForm.controls['username'].hasError('required') && loginForm.controls['username'].touched">Username is required</div>
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" formControlName="password" id="pwd" autocomplete="off">
+        <div class="error" *ngIf="loginForm.controls['password'].hasError('required') && loginForm.controls['password'].touched">Password is required</div>
+      </div>
+      <button class="btn btn-success" [disabled]="loginForm.invalid">Login</button>
+      <div *ngIf="invalidLogin" class="error">
+        <div>Invalid credentials.</div>
+      </div>
+    </form>
+  </div>
+</div> -->
